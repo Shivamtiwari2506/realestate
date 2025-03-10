@@ -5,7 +5,9 @@ export const Searchdata = [
     location: "Mumbai",
     type: "4bhk",
     rent: "$1300 - $1600",
-    sqfeet:"2096"
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 2,
@@ -13,6 +15,9 @@ export const Searchdata = [
     location: "Pune",
     type: "House",
     rent: "$1900 - $2300",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 3,
@@ -20,6 +25,9 @@ export const Searchdata = [
     location: "Bangalore",
     type: "2bhk",
     rent: "$1700 - $2100",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 4,
@@ -27,6 +35,9 @@ export const Searchdata = [
     location: "Hyderabad",
     type: "2bhk",
     rent: "$1500 - $2000",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   
   {
@@ -35,6 +46,9 @@ export const Searchdata = [
     location: "Ahmedabad",
     type: "2bhk",
     rent: "$1400 - $1700",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 21,
@@ -42,6 +56,9 @@ export const Searchdata = [
     location: "Hyderabad",
     type: "2bhk",
     rent: "$1500 - $2000",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 6,
@@ -49,6 +66,9 @@ export const Searchdata = [
     location: "Jaipur",
     type: "2bhk",
     rent: "$1800 - $2200",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 7,
@@ -56,6 +76,9 @@ export const Searchdata = [
     location: "Kolkata",
     type: "2bhk",
     rent: "$1600 - $2000",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 8,
@@ -63,6 +86,9 @@ export const Searchdata = [
     location: "Chennai",
     type: "2bhk",
     rent: "$1200 - $1500",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 9,
@@ -70,6 +96,9 @@ export const Searchdata = [
     location: "Lucknow",
     type: "2bhk",
     rent: "$1800 - $2200",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 10,
@@ -77,6 +106,9 @@ export const Searchdata = [
     location: "Indore",
     type: "2bhk",
     rent: "$1600 - $2000",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 11,
@@ -84,6 +116,9 @@ export const Searchdata = [
     location: "Bhopal",
     type: "2bhk",
     rent: "$1300 - $1600",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 12,
@@ -91,6 +126,9 @@ export const Searchdata = [
     location: "Surat",
     type: "2bhk",
     rent: "$1200 - $1500",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 13,
@@ -98,6 +136,9 @@ export const Searchdata = [
     location: "Nagpur",
     type: "2bhk",
     rent: "$1500 - $1900",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 14,
@@ -105,6 +146,9 @@ export const Searchdata = [
     location: "Visakhapatnam",
     type: "2bhk",
     rent: "$1600 - $2100",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 15,
@@ -112,6 +156,9 @@ export const Searchdata = [
     location: "Vadodara",
     type: "2bhk",
     rent: "$1400 - $1800",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 16,
@@ -119,6 +166,9 @@ export const Searchdata = [
     location: "Ludhiana",
     type: "2bhk",
     rent: "$1600 - $2100",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 17,
@@ -126,6 +176,10 @@ export const Searchdata = [
     location: "Agra",
     type: "2bhk",
     rent: "$1300 - $1700",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
+
   },
   {
     id: 18,
@@ -133,6 +187,9 @@ export const Searchdata = [
     location: "Coimbatore",
     type: "2bhk",
     rent: "$1400 - $1750",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 19,
@@ -140,6 +197,9 @@ export const Searchdata = [
     location: "Thane",
     type: "2bhk",
     rent: "$1600 - $2100",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   },
   {
     id: 20,
@@ -147,6 +207,9 @@ export const Searchdata = [
     location: "Patna",
     type: "2bhk",
     rent: "$1200 - $1500",
+    sqft:"2096",
+    agentName:"Jenny Wilson",
+    agentImage:"https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
   }
 ];
 

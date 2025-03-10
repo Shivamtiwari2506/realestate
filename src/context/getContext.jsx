@@ -5,7 +5,7 @@ const PropertyContext = createContext();
 
 // Provider Component
 export const PropertyProvider = ({ children }) => {
-  const [selectedProperty, setSelectedProperty] = useState(null);
+  const [selectedProperty, setSelectedProperty] = useState({});
 
   return (
     <PropertyContext.Provider value={{selectedProperty, setSelectedProperty}}>

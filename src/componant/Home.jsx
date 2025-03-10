@@ -132,19 +132,8 @@ export default function Home() {
               { filteredCards.length > 0 && (
                  filteredCards
                   .slice(0, 4)
-                  .map((card, index) => (
-                    <NewCard
-                        id={card.id}
-                      key={index}
-                      imageUrl="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/14/cb/3b/ca.jpg"
-                      address={card.location}
-                      price={card.rent}
-                      bedrooms={4}
-                      bathrooms={4}
-                      squareFeet={2096}
-                      agentName="Jenny Wilson"
-                      agentImage="https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c4384702f8f.png"
-                    />
+                  .map((card,index) => (
+                    <NewCard property = {card} key= {index}/>
                   ))
               )
               }

@@ -10,6 +10,7 @@ import Contactus from './componant/Contactus';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DetailsPage from './componant/DetailsPage';
 import { PropertyProvider } from './context/getContext';
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -76,7 +77,9 @@ function App() {
 
     <div>
       <PropertyProvider>
+        <ToastContainer/>
       <RouterProvider router={router}/>
+    
       </PropertyProvider>
     </div>
 

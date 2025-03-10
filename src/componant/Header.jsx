@@ -41,7 +41,7 @@ export default function Header() {
                 </div>
                 <div className='pt-3 justify-between flex max-w-[1200px]  mx-auto bg-white items-center p-2'>
                     <div>
-                       <a  href=""><img className='w-15 md:w-20' src={logotop} alt="logo" /></a>
+                       <NavLink to="/"><img className='w-15 md:w-20' src={logotop} alt="logo" /></NavLink>
                     </div>
                     <div className='hidden lg:flex lg:gap-5 items-center capitalize'>
                         <NavLink to="/">home</NavLink>
