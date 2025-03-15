@@ -114,6 +114,7 @@ const NewCard = ({ property }) => {
               </div>
             </div>
             <div>
+              
               <button
                 onClick={handleClick}
                 className={`cursor-pointer p-2 rounded-full transition-colors duration-300 ${

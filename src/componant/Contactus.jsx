@@ -2,6 +2,8 @@ import React from 'react'
 import contact from "../assets/image/Calltoaction.png"
 import { useForm } from "react-hook-form"
 import { GoogleMap, useJsApiLoader,LoadScript, Marker, } from "@react-google-maps/api";
+import Map from 'ol/Map';
+import MapComponent from './MapComponent';
 
 export default function Contactus() {
 
@@ -22,13 +24,7 @@ export default function Contactus() {
         lng: 77.1025,
       };
 
-    //   const { isLoaded } = useJsApiLoader({
-    //     googleMapsApiKey: "AIzaSyAAhRRNZH_CFQXqpxO0Xe8vrZ7E7lhrWR0", // Replace with your actual API key
-    //   });
     
-    //   if (!isLoaded) {
-    //     return <div>Loading...</div>;
-    //   }
     
 
 
@@ -39,15 +35,8 @@ export default function Contactus() {
             </div>
             <div  className='max-w-[1200px] h-auto mx-auto pt-5  lg:grid lg:grid-cols-2 items-center px-3 gap-5'>
                 <div className='mt-7'>
-                    <LoadScript googleMapsApiKey="AIzaSyAAhRRNZH_CFQXqpxO0Xe8vrZ7E7lhrWR0">
-                        <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
-                            <Marker position={center} />
-                        </GoogleMap>
-                    </LoadScript>
-                    {/* <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
-                       <Marker position={center} />
-                  </GoogleMap> */}
-                   
+                    
+                    <MapComponent/>
                 </div>
                 <div className='items-center  pt-5'>
                     <h2 className='font-bold text-xl'>Contact Us</h2>

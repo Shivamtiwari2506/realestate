@@ -14,65 +14,66 @@ import { ToastContainer } from 'react-toastify';
 
 
 
-const router = createBrowserRouter([
 
-  {
-    path:"/",
-    element:
-    <div>
-      <HeaderTop/>
-      <Home/>
-      <Footer/>
-    </div>
-  },
-  {
-    path:"/gallery",
-    element: 
-    <div>
-      <Header/>
-      <Gallery/>
-      <Footer/>
-    </div>
-  },
-  {
-    path:"/blog",
-    element:
-    <div>
-      <Header/>
-      <Blog/>
-      <Footer/>
-    </div>
-  },
-  {
-    path:"/aboutus",
-    element:
-    <div>
-      <Header/>
-      <About/>
-      <Footer/>
-    </div>
-  },
-  {
-    path:"/contactus",
-    element:
-    <div>
-      <Header/>
-      <Contactus/>
-      <Footer/>
-    </div>
-  },
-  {
-    path:"/details",
-    element:
-    <div>
-      <Header/>
-      <DetailsPage/>
-      <Footer/>
-    </div>
-  }
-]);
 
 function App() {
+  const router = createBrowserRouter([
+
+    {
+      path:"/",
+      element:
+      <div>
+        <HeaderTop/>
+        <Home/>
+        <Footer/>
+      </div>
+    },
+    {
+      path:"/gallery",
+      element: 
+      <div>
+        <Header/>
+        <Gallery/>
+        <Footer/>
+      </div>
+    },
+    {
+      path:"/blog",
+      element:
+      <div>
+        <Header/>
+        <Blog/>
+        <Footer/>
+      </div>
+    },
+    {
+      path:"/aboutus",
+      element:
+      <div>
+        <Header/>
+        <About/>
+        <Footer/>
+      </div>
+    },
+    {
+      path:"/contactus",
+      element:
+      <div>
+        <Header/>
+        <Contactus/>
+        <Footer/>
+      </div>
+    },
+    {
+      path:"/details",
+      element:
+      <div>
+        <Header/>
+        <DetailsPage/>
+        <Footer/>
+      </div>
+    }
+  ]);
   return (
 
     <div>
