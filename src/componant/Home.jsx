@@ -24,18 +24,31 @@ export default function Home() {
   const [filteredCards,setFilteredCards] = useState(cardImages) 
 
   const scrollContainerRef = useRef(null);
-
-  const scrollLeft = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollLeft -= 300;
-    }
-  };
+  const scrollAmount = 300;
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollLeft += 300;
+      const container = scrollContainerRef.current;
+      if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+        // If at the end, scroll back to the start
+        container.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+      }
     }
   };
+
+  const scrollLeft = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+    }
+  };
+
+  useEffect(() => {
+    const interval = setInterval(scrollRight, 3000); // Auto-scroll every 3 seconds
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
+
 
   const filterHandler = ()=>{
     const filtered = cardImages
@@ -45,7 +58,8 @@ export default function Home() {
     setFilteredCards(filtered)
     
   }
-  const [flag, setFlag] = useState(false);
+
+  
 
   
 
@@ -332,6 +346,7 @@ export default function Home() {
               </button>
             </div>
           </div>
+
         </div>
       </div>
 
